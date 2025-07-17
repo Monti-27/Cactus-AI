@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-bg-1: #171717;
+    --global-bg-2: #1e293b;
+    --global-bg-3: #282c34;
+    --global-bg-4: #f5f5f57f;
+    --global-bg-5: #ffffff;
+    --global-text-1: #0a0a0a;
+    --global-text-2: #5c6370;
+    --global-text-3: #61afef;
+    --global-text-4: #737373;
+    --global-text-5: #98c379;
+    --global-text-6: #abb2bf;
+    --global-text-7: #c678dd;
+    --global-text-8: #d19a66;
+    --global-text-9: #e06c75;
+
+    /* Header Colors */
+    --header-bg-1: #ffffffcc;
+
+    /* Button Colors */
+    --button-bg-1: #1E3A8A;
+    --button-bg-2: #3B82F6;
+    --button-bg-3: #171717;
+    --button-text-1: #ffffff;
+    --button-text-2: #ffffff;
+  }
+}
+
+@layer utilities {
+  /* Global */
+  .bg-global-1 {
+    background-color: var(--global-bg-1);
+  }
+  .bg-global-2 {
+    background-color: var(--global-bg-2);
+  }
+  .bg-global-3 {
+    background-color: var(--global-bg-3);
+  }
+  .bg-global-4 {
+    background-color: var(--global-bg-4);
+  }
+  .bg-global-5 {
+    background-color: var(--global-bg-5);
+  }
+  .text-global-1 {
+    color: var(--global-text-1);
+  }
+  .text-global-2 {
+    color: var(--global-text-2);
+  }
+  .text-global-3 {
+    color: var(--global-text-3);
+  }
+  .text-global-4 {
+    color: var(--global-text-4);
+  }
+  .text-global-5 {
+    color: var(--global-text-5);
+  }
+  .text-global-6 {
+    color: var(--global-text-6);
+  }
+  .text-global-7 {
+    color: var(--global-text-7);
+  }
+  .text-global-8 {
+    color: var(--global-text-8);
+  }
+  .text-global-9 {
+    color: var(--global-text-9);
+  }
+
+  /* Header */
+  .bg-header-1 {
+    background-color: var(--header-bg-1);
+  }
+
+  /* Button */
+  .bg-button-1 {
+    background-color: var(--button-bg-1);
+  }
+  .bg-button-2 {
+    background-color: var(--button-bg-2);
+  }
+  .bg-button-3 {
+    background-color: var(--button-bg-3);
+  }
+  .text-button-1 {
+    color: var(--button-text-1);
+  }
+  .text-button-2 {
+    color: var(--button-text-2);
+  }
+}
